@@ -1,0 +1,158 @@
+/* SignupPage.css */
+
+.video-background-wrapper {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.form-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0c1327;
+  margin-bottom: 10px;
+}
+
+.form-container h2 span {
+  color: #ff6600;
+}
+
+.form-container p {
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 85%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.input-box:focus {
+  border-color: #ff6600;
+  outline: none;
+}
+.input-box1 {
+  width: 93%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+.input-box1:focus {
+  border-color: #ff6600;
+  outline: none;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #e95c00;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 10px;
+}
+
+.google-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.login-text a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error-message {
+  background-color: #ffe5e5;
+  color: #d8000c;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.login1-btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+}
+
+.login1-btn:hover {
+  background-color: #e65c00; /* slightly darker orange */
+  transform: scale(1.03);    /* subtle zoom effect */
+}
+
+

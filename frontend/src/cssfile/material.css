@@ -1,0 +1,51 @@
+.material-list {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+  }
+  
+  .material-list h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .material-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .material-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background-color: #f5f7fa;
+    padding: 16px;
+    border-radius: 10px;
+    width: 140px;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .material-card:hover {
+    transform: translateY(-5px);
+    background-color: #e9f0fb;
+  }
+  
+  .material-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .material-name {
+    font-size: 14px;
+    color: #0073e6;
+    text-align: center;
+    word-break: break-word;
+  }
+  

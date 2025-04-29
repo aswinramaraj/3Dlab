@@ -1,0 +1,89 @@
+
+.home {
+    display: flex;
+
+    
+    align-items: center;
+    width: 1500px;
+    height: 600px;
+    /* Ensure correct layering */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+/* Background layer with grayscale effect */
+.home::before {
+    content: "";
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    width: 40%;
+    height: 90%;
+    background-image: url('hman.png'); /* Adjust the path as needed */
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    opacity: 0.8;
+    z-index: -1; /* Places it behind the content */
+}
+
+/* Text container (without grayscale effect) */
+.home-side-text {
+   width: 600px;
+   height: 600px;
+   color:  black;
+   z-index: 1; /* Ensure it's above the background */
+   margin-top: 250px;
+   margin-left: 200px;
+}
+
+h1 {
+    
+  
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    gap: 2px;
+    width: 300px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.text2{
+    text-shadow: 1px 1px 1px rgb(251, 250, 250);
+    font-family:'Times New Roman', Times, serif ;
+ 
+    margin-top: 0px;
+     font-weight: bold;
+     color:white;
+     margin-left: 23px;
+}
+.donate{
+    background: transparent;
+    margin-left: 190px;
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid #f05218;
+    font-family: 'Times New Roman', Times, serif;
+}
+.donate:hover {
+    background-color: #f05218;
+    transition: 0.5s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2), 0px 1px 3px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+  }
+  /* GetStartedButton.css */
+.get-started-btn {
+    background: linear-gradient(90deg, #a23fec, #5ccfe6);
+    color: white;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  .get-started-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+  }
+  
+  
