@@ -89,4 +89,4 @@ Let’s revolutionize practical education together — with AI, creativity, and 
 
 💬 Questions or ideas? Open an Issue
 
-<p align="center"> Made with ❤️ by the Virulan Team </p> ```
+ Made with ❤️ by the Virulan Team```
